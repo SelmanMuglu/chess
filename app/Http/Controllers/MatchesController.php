@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-
+use Illuminate\Support\Facades\DB;
 use App\Match;
 use App\PlayerMatch;
 use App\Tournament;
@@ -14,8 +14,11 @@ class MatchesController extends Controller
 
     public function index()
     {
+        $toernooi = DB::table('tournaments')->join('matches', 'matches.tournament_id', '=', 'tournaments.tournament_id')
+            ->select('tournaments.tournament')->get();
         $wedstrijden = Match::all();
-        return view('matches.index', compact('wedstrijden'));
+//        dd($toernooi);
+        return view('matches.index', compact('wedstrijden', 'toernooi'));
     }
 
 

@@ -23,12 +23,12 @@
                             <tbody>
                             @foreach($wedstrijden as $wedstrijd)
                                 <tr>
-                                    <td>{{$wedstrijd->tournament_id}}</td>
+                                    @foreach($toernooi as $row)
+                                        <td>{{$row->tournament}}</td><
+                                    @endforeach
                                     @foreach($wedstrijd->player()->get() as $player)
                                         <td>{{$player->first_name}}</td>
                                     @endforeach
-                                    <td>{{$wedstrijd->points1}}</td>
-                                    <td>{{$wedstrijd->points2}}</td>
                                     <td>
                                         <a href="{{route('matches.edit', $wedstrijd->match_id)}}">
                                             <button type="button" class="btn btn-primary float-left">Edit</button>

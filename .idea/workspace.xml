@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40e07e33-d1ee-4d9a-a1ad-fa413546a3aa" name="Default Changelist" comment="" />
+    <list default="true" id="40e07e33-d1ee-4d9a-a1ad-fa413546a3aa" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/MatchesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/MatchesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/matches/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/matches/index.blade.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +17,9 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -118,6 +125,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1t7p8TNzB9SKcP34LgZtZYVFIkp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -125,7 +133,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../status" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../jongerenkansrijk" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -147,7 +155,9 @@
       <workItem from="1622219412672" duration="10574000" />
       <workItem from="1622284691209" duration="9290000" />
       <workItem from="1622364747846" duration="15368000" />
-      <workItem from="1622459064929" duration="5798000" />
+      <workItem from="1622459064929" duration="17398000" />
+      <workItem from="1622526001532" duration="91000" />
+      <workItem from="1622569172001" duration="6841000" />
     </task>
     <servers />
   </component>
@@ -159,17 +169,25 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1622385924895" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1622468944797">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1622526043856">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1622468944797" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1622526043856" />
+    <state x="645" y="314" key="Github.ShareDialog" timestamp="1622485024227">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="645" y="314" key="Github.ShareDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1622485024227" />
+    <state x="538" y="32" key="Github.UntrackedFilesDialog" timestamp="1622485029881">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="538" y="32" key="Github.UntrackedFilesDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1622485029881" />
     <state x="2588" y="95" width="583" height="849" key="find.popup" timestamp="1622462858994">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2588" y="95" width="583" height="849" key="find.popup/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1622462858994" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1622459756471">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1622576362564">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1622459756471" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1622576362564" />
   </component>
 </project>
